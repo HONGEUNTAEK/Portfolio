@@ -109,7 +109,8 @@
  .het_main {
     width: 100%;
     height: 910px;
-    background-image: url(img/6022_18249_500.jpg);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background-image: url(/img/6022_18249_500.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -126,7 +127,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #121212da;
+    background: linear-gradient(transparent, #121212 95%);
  }
  
  .intro_title {
@@ -164,7 +165,7 @@
  }
  
  .intro_text {
-    color: rgba(255, 255, 255, 0.651);
+    color: rgba(255, 255, 255, 0.851);
     position: absolute;
     z-index: 10;
     top: 65%;
@@ -199,7 +200,7 @@
  }
  
  .intro_button {
-    --primary-color: #ffffffb7;
+    --primary-color: #ffffffd6;
     --hovered-color: #00ff84a6;
     display: flex;
     font-weight: 300;
