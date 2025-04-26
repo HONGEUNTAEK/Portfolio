@@ -11,7 +11,7 @@
 
    const onScroll = () => {
       const scrollTop = document.documentElement.scrollTop;
-      console.log(scrollTop);
+      // console.log(scrollTop);
 
       const height = //보여지는 영역을 제외한 길이
          document.documentElement.scrollHeight - //스크롤의 총길이
@@ -26,3 +26,16 @@
 
 })()
 
+hetBody = document.querySelector('body');
+hetHeader = document.querySelector('header');
+
+hetBody.addEventListener('wheel',(event) => {
+   let wheel = event.wheelDeltaY;
+
+   if(wheel > 0) {
+      hetHeader.setAttribute("style", "background-color: #transparent;")
+   }
+   else {
+      hetHeader.setAttribute("style", "background: #12121263;")
+    }
+})
