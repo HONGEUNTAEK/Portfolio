@@ -366,6 +366,7 @@ main {
 .about_detail_box>p {
    margin: 20px 0 150px 0;
    color: rgba(255, 255, 255, 0.801);
+   line-height: 2;
 }
 
 .about_line2 {
