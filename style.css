@@ -434,6 +434,7 @@ main {
 .skills {
    text-align: left;
    display: flex;
+   align-items: flex-start;
    flex-direction: column;
    gap: 15px;
 }
@@ -466,6 +467,7 @@ main {
 .tools {
    text-align: left;
    display: flex;
+   align-items: flex-start;
    flex-direction: column;
    gap: 15px;
 }
