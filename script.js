@@ -39,6 +39,3 @@ hetBody.addEventListener('wheel',(event) => {
       hetHeader.setAttribute("style", "background: #12121263;")
     }
 })
-
-
-// zz

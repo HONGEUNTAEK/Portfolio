@@ -355,15 +355,15 @@ main {
    /* font-family: "Noto Sans KR", sans-serif; */
 }
 
-.about_detail>h3 {
-   width: 130px;
+.about_detail_box>h3 {
+   width: 200px;
    margin: 0 0 10px 0;
    border-bottom: 1px solid rgba(255, 255, 255, 0.808);
    color: rgba(255, 255, 255, 0.808);
    line-height: 40px;
 }
 
-.about_detail>p {
+.about_detail_box>p {
    margin: 20px 0 150px 0;
    color: rgba(255, 255, 255, 0.801);
 }
@@ -409,7 +409,7 @@ main {
    height: 650px;
    display: flex;
    justify-content: center;
-   gap: 7rem;
+   gap: 9rem;
    padding: 30px;
    position: relative;
    background-image: url(img/9f96597cdce7912cd9fcd513d3da1163.jpg);
@@ -419,7 +419,7 @@ main {
    background-attachment: fixed;
 }
 
-.skills_content::before{
+.skills_content::before {
    content: '';
    position: absolute;
    z-index: 10;
@@ -437,16 +437,16 @@ main {
    gap: 15px;
 }
 
-.skills > h4{
+.skills>h4 {
    color: rgba(255, 255, 255, 0.801);
    font-family: "Noto Sans", sans-serif;
    font-size: 1.5rem;
-   font-weight: 350;
+   font-weight: 400;
    text-align: center;
    z-index: 10;
 }
 
-.skills > div {
+.skills>div {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -455,7 +455,7 @@ main {
    z-index: 10;
 }
 
-.skills > div > img {
+.skills>div>img {
    width: 50px;
    height: 50px;
    object-fit: contain;
@@ -469,16 +469,16 @@ main {
    gap: 15px;
 }
 
-.tools > h4{
+.tools>h4 {
    color: rgba(255, 255, 255, 0.801);
    font-family: "Noto Sans", sans-serif;
    font-size: 1.5rem;
-   font-weight: 350;
+   font-weight: 400;
    text-align: center;
    z-index: 10;
 }
 
-.tools > div {
+.tools>div {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -487,11 +487,16 @@ main {
    z-index: 10;
 }
 
-.tools > div > img {
+.tools>div>img {
    width: 50px;
    height: 50px;
    object-fit: contain;
    z-index: 10;
+}
+
+.js>img {
+   width: 20px;
+   height: 20px;
 }
 
 
