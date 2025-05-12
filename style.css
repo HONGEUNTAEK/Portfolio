@@ -338,8 +338,7 @@ main {
 .about_detail {
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   /* align-items: center; */
+   margin: 70px 0 0 0;
    width: 500px;
    text-align: justify;
    font-weight: 200;
@@ -519,6 +518,7 @@ main {
    width: 500px;
    height: 650px;
    display: flex;
+   flex-direction: column;
    margin: 0 auto;
    background-color: #2e2e2e;
    padding: 20px;
@@ -526,6 +526,9 @@ main {
 
 .awards_content_title > h3 {
    color: rgba(255, 255, 255, 0.808);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.808);
+   width: 50px;
+   margin: 0 0 20px 0;
 }
 
 .awards_content > .awards_list {
