@@ -393,11 +393,11 @@ main {
 
 .skills_content {
    width: 100%;
-   height: 650px;
+   height: 750px;
    display: flex;
    justify-content: center;
    gap: 9rem;
-   padding: 30px;
+   padding: 100px;
    position: relative;
    background-image: url(img/9f96597cdce7912cd9fcd513d3da1163.jpg);
    background-position: center;
@@ -515,8 +515,8 @@ main {
 }
 
 .awards_frame {
-   width: 500px;
-   height: 650px;
+   /* width: 500px; */
+   /* height: 650px; */
    display: flex;
    flex-direction: column;
    margin: 0 auto;
@@ -543,4 +543,17 @@ main {
    top: 1px;
    bottom: 0;
    left: 9.4rem;
+}
+
+.timeLine {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   text-align: left;
+}
+
+.timeLine > p {
+   color: rgba(255, 255, 255, 0.801);
 }
