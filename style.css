@@ -267,7 +267,7 @@ main {
 .het_content1 {
    width: 100%;
    height: 550px;
-   margin: 0 0 120px 0;
+   margin: 0 0 150px 0;
 }
 
 #about_title {
@@ -367,7 +367,7 @@ main {
 
 .het_content2 {
    width: 100%;
-   margin: 0 0 250px 0;
+   margin: 0 0 200px 0;
 }
 
 #skills_title {
@@ -524,13 +524,6 @@ main {
    padding: 20px;
 }
 
-.awards_content_title > h3 {
-   color: rgba(255, 255, 255, 0.808);
-   border-bottom: 1px solid rgba(255, 255, 255, 0.808);
-   width: 50px;
-   margin: 0 0 20px 0;
-}
-
 .awards_content > .awards_list {
    position: relative;
    padding: 5rem 0;
@@ -546,14 +539,15 @@ main {
 }
 
 .timeLine {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
    gap: 10px;
-   text-align: left;
 }
 
 .timeLine > p {
    color: rgba(255, 255, 255, 0.801);
+}
+
+/* content4 */
+
+.het_content4 {
+   width: 100%;
 }
