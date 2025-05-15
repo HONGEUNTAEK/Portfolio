@@ -367,7 +367,7 @@ main {
 
 .het_content2 {
    width: 100%;
-   margin: 0 0 200px 0;
+   margin: 0 0 50px 0;
 }
 
 #skills_title {
@@ -487,6 +487,7 @@ main {
 
 .het_content3 {
    width: 100%;
+   margin: 0 0 100px 0;
 }
 
 #awards_title {
@@ -515,21 +516,22 @@ main {
 }
 
 .awards_frame {
-   /* width: 500px; */
-   /* height: 650px; */
+   width: 50%;
+   height: 100%;
    display: flex;
    flex-direction: column;
    margin: 0 auto;
    background-color: #2e2e2e;
    padding: 20px;
+   border-radius: 10px;
 }
 
-.awards_content > .awards_list {
+.awards_content>.awards_list {
    position: relative;
    padding: 5rem 0;
 }
 
-.awards_content > .awards_bar {
+.awards_content>.awards_bar {
    position: absolute;
    width: 1px;
    border-right: 2px solid #00FF84;
@@ -539,10 +541,12 @@ main {
 }
 
 .timeLine {
+   display: flex;
+   flex-direction: column;
    gap: 10px;
 }
 
-.timeLine > p {
+.timeLine>p {
    color: rgba(255, 255, 255, 0.801);
 }
 
@@ -550,4 +554,31 @@ main {
 
 .het_content4 {
    width: 100%;
+   height: 300px;
+}
+
+#project_title {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 50px 0;
+}
+
+#project_title>h3 {
+   width: 200px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.808);
+   font-size: 25px;
+   font-family: "Noto Sans", sans-serif;
+   font-weight: 300;
+   text-align: center;
+   line-height: 40px;
+}
+
+#project_title>h3>a {
+   color: rgba(255, 255, 255, 0.959);
+   text-decoration: none;
+}
+
+#project_title>h3>a {
+   color: rgba(255, 255, 255, 0.959);
+   text-decoration: none;
 }
