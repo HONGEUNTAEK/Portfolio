@@ -93,7 +93,7 @@ header {
    bottom: 0;
    left: 0;
    height: 1px;
-   background: #00FF84;
+   background: #00ff849c;
    width: 0%;
 }
 
@@ -158,8 +158,8 @@ main {
 
 .intro_line {
    width: 60px;
-   background: #00FF84;
-   height: 1px;
+   background: #00ff84d8;
+   height: 1.5px;
    border: 0;
    position: absolute;
    top: 59%;
@@ -172,12 +172,12 @@ main {
    color: rgba(255, 255, 255, 0.851);
    position: absolute;
    z-index: 10;
-   top: 65%;
+   top: 66%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
    opacity: 1;
-   font-size: 1rem;
+   font-size: 1.05rem;
    font-weight: 300;
    white-space: nowrap;
    font-family: "Noto Sans KR", sans-serif;
@@ -363,6 +363,11 @@ main {
    line-height: 2;
 }
 
+.about_detail_box>p>span {
+   font-size: 1.1rem;
+   color: #00ff849c;
+}
+
 /* content2 */
 
 .het_content2 {
@@ -422,14 +427,14 @@ main {
    display: flex;
    align-items: flex-start;
    flex-direction: column;
-   gap: 15px;
+   gap: 20px;
 }
 
 .skills>h4 {
    color: rgba(255, 255, 255, 0.801);
    font-family: "Noto Sans", sans-serif;
    font-size: 1.5rem;
-   font-weight: 400;
+   font-weight: 500;
    text-align: center;
    z-index: 10;
 }
@@ -455,14 +460,14 @@ main {
    display: flex;
    align-items: flex-start;
    flex-direction: column;
-   gap: 15px;
+   gap: 20px;
 }
 
 .tools>h4 {
    color: rgba(255, 255, 255, 0.801);
    font-family: "Noto Sans", sans-serif;
    font-size: 1.5rem;
-   font-weight: 400;
+   font-weight: 500;
    text-align: center;
    z-index: 10;
 }
@@ -534,7 +539,7 @@ main {
 .awards_content>.awards_bar {
    position: absolute;
    width: 1px;
-   border-right: 2px solid #00FF84;
+   border-right: 2px solid #00ff849c;
    top: 1px;
    bottom: 0;
    left: 9.4rem;
@@ -548,6 +553,10 @@ main {
 
 .timeLine>p {
    color: rgba(255, 255, 255, 0.801);
+}
+
+.timeAward {
+   color: #00ff849c;
 }
 
 /* content4 */
