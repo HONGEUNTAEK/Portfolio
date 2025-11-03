@@ -26,6 +26,10 @@ body {
    }
 }
 
+a:visited {
+   color: inherit;
+}
+
 /* font-family: "Noto Sans", sans-serif; */
 /* font-family: "Noto Sans KR", sans-serif; */
 
@@ -732,5 +736,18 @@ main {
 }
 
 .footer_txt>p {
-   color: rgba(255, 255, 255, 0.959);
+   color: rgba(255, 255, 255, 0.959);   
+}
+
+.footer_txt>p:hover {
+   color: #00ff849c;
+}
+
+.footer_txt>p>a {
+   color: rgba(255, 255, 255, 0.959);  
+   text-decoration: none; 
+}
+
+.footer_txt>p>a:hover {
+   color: #00ff849c;
 }
