@@ -72,6 +72,13 @@ menuLogo.addEventListener('click', (e) => {
    history.pushState(null, null, window.location.pathname);
 });
 
+window.addEventListener('scroll', () => {
+   if (document.documentElement.scrollTop === 0) {
+      hetHeader.style.background = "transparent";
+   }
+});
+
+
 // Learn more
 
 const learnMoreBtn = document.querySelector('.intro_button');
