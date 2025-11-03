@@ -34,7 +34,7 @@ hetBody.addEventListener('wheel', (event) => {
    let wheel = event.wheelDeltaY;
 
    if (wheel > 0) {
-      hetHeader.setAttribute("style", "background-color: #transparent;")
+      hetHeader.setAttribute("style", "background-color: transparent;")
    }
    else {
       hetHeader.setAttribute("style", "background: #12121263;")
@@ -67,7 +67,39 @@ menuLogo.addEventListener('click', (e) => {
    window.scrollTo({
       top: 0,
       left: 0,
-      behavior: 'smooth'  // 부드러운 스크롤 동작
+      behavior: 'smooth'
    });
    history.pushState(null, null, window.location.pathname);
 });
+
+// Learn more
+
+const learnMoreBtn = document.querySelector('.intro_button');
+
+learnMoreBtn.addEventListener('click', (e) => {
+   e.preventDefault();
+   const targetSection = document.getElementById('about_title');
+
+   window.scrollTo({
+      top: targetSection.offsetTop - document.querySelector('header').offsetHeight,
+      behavior: 'smooth'
+   });
+});
+
+// 자기소개서 자세히 보기
+
+const aboutMoreBtn = document.querySelector('.about_more');
+const aboutFullText = document.querySelector('.about_full_text');
+
+aboutMoreBtn.addEventListener('click', () => {
+   if (aboutFullText.style.display === "block") {
+      aboutFullText.style.display = "none";
+      aboutMoreBtn.textContent = "자세히 보기 >";
+      aboutMoreBtn.style.color = "#00ff849c";
+   } else {
+      aboutFullText.style.display = "block";
+      aboutMoreBtn.textContent = "그만 보기 X";
+      aboutMoreBtn.style.color = "#00ff84de";
+   }
+});
+

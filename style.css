@@ -65,7 +65,7 @@ header {
 }
 
 .header_title>a:hover {
-   color: #00ff84d2;
+   color: #00ff849c;
 }
 
 .header_menu {
@@ -85,7 +85,7 @@ header {
 }
 
 .header_menu>li>a:hover {
-   color: #00ff84d2;
+   color: #00ff849c;
 }
 
 .progress-bar {
@@ -158,7 +158,7 @@ main {
 
 .intro_line {
    width: 60px;
-   background: #00ff84b2;
+   background: #00ff849c;
    height: 1.5px;
    border: 0;
    position: absolute;
@@ -186,7 +186,7 @@ main {
 }
 
 .intro_text>span {
-   color: #00ff84a6;
+   color: #00ff849c;
 }
 
 /* 버튼 */
@@ -210,7 +210,7 @@ main {
 
 .intro_button {
    --primary-color: #ffffffd6;
-   --hovered-color: #00ff84a6;
+   --hovered-color: #00ff849c;
    display: flex;
    font-weight: 300;
    font-size: 20px;
@@ -270,8 +270,7 @@ main {
 
 .het_content1 {
    width: 100%;
-   height: 550px;
-   margin: 0 0 150px 0;
+   padding: 100px 0;
 }
 
 #about_title {
@@ -296,8 +295,19 @@ main {
 }
 
 .about_title:hover {
-   color: #00FF84;
-   border-bottom: 1px solid #00FF84;
+   color: #00ff849c;
+   border-bottom: 1px solid #00ff849c;
+}
+
+.about_more {
+   cursor: pointer;
+}
+
+.about_full_text {
+   display: none; /* 처음에는 숨김 */
+   color: rgba(255, 255, 255, 0.8);
+   margin-top: 20px;
+   line-height: 1.6;
 }
 
 .about {
@@ -372,6 +382,11 @@ main {
    color: #00ff849c;
 }
 
+.about_detail_box>.about_more{
+   margin: 30px 0 0 0;
+   color: #00ff849c;
+}
+
 .detail_line {
    width: 100%;
    background: rgba(255, 255, 255, 0.708);
@@ -417,7 +432,7 @@ main {
    padding: 100px;
    position: relative;
    background-image: url(img/9f96597cdce7912cd9fcd513d3da1163.jpg);
-   background-position: center;
+   /* background-position: center; */
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -540,7 +555,7 @@ main {
    margin: 0 auto;
    background-color: #2e2e2e;
    padding: 20px;
-   border-radius: 10px;
+   border-radius: 20px;
 }
 
 .awards_content>.awards_list {
@@ -575,7 +590,8 @@ main {
 
 .het_content4 {
    width: 100%;
-   height: 300px;
+   height: 1000px;
+   margin: 0 0 100px 0;
 }
 
 #project_title {
@@ -611,8 +627,8 @@ main {
    flex-direction: column;
    margin: 0 auto;
    background-color: #2e2e2e;
-   padding: 25px;
-   border-radius: 10px;
+   padding: 45px;
+   border-radius: 20px;
 }
 
 .pdfbox_wrap {
@@ -638,7 +654,7 @@ main {
 
 .pdfbox_wraptxt>h4 {
    color: #00ff849c;
-   font-size: 1.4rem;
+   font-size: 1.7rem;
 }
 
 .pdfbox_wraptxt>p {
@@ -650,11 +666,16 @@ main {
    width: 100%;
    height: 200px;
    background-color: #505050;
-   border-radius: 30px;
+   border-radius: 25px;
    display: flex;
    justify-content: center;
    align-items: center;
    text-align: center;
+}
+
+.pdfbox:hover {
+   background-color: #272727;
+   transition: 0.4s;
 }
 
 .pdfbox_txt {
@@ -682,12 +703,12 @@ main {
 
 .project_line {
    width: 50px;
-   background: #00ff84b2;
+   background: #00ff849c;
    height: 5px;
    border: 0;
    border-radius: 20px;
    position: absolute;
-   top: 75px;
+   top: 85px;
    left: 25px;
    transform: translate(-50%, -50%);
    z-index: 10;
