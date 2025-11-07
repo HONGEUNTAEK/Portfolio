@@ -101,7 +101,7 @@ const aboutFullText = document.querySelector('.about_full_text');
 aboutMoreBtn.addEventListener('click', () => {
    if (aboutFullText.style.display === "block") {
       aboutFullText.style.display = "none";
-      aboutMoreBtn.textContent = "자세히 보기 >";
+      aboutMoreBtn.textContent = "포부 >";
       aboutMoreBtn.style.color = "#00ff849c";
    } else {
       aboutFullText.style.display = "block";
