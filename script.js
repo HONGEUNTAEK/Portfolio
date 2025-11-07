@@ -106,7 +106,7 @@ aboutMoreBtn.addEventListener('click', () => {
    } else {
       aboutFullText.style.display = "block";
       aboutMoreBtn.textContent = "그만 보기 X";
-      aboutMoreBtn.style.color = "#00ff84de";
+      aboutMoreBtn.style.color = "#00ff849c";
    }
 });
 

@@ -113,7 +113,7 @@ main {
    width: 100%;
    height: 100vh;
    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-   background-image: url(img/6022_18249_500.jpg);
+   background-image: url(./img/introBack.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -298,9 +298,12 @@ main {
    text-decoration: none;
 }
 
-.about_title:hover {
-   color: #00ff849c;
+#about_title>h3:hover {
    border-bottom: 1px solid #00ff849c;
+}
+
+#about_title>h3>a:hover {
+   color: #00ff849c;
 }
 
 .about_more {
@@ -427,6 +430,14 @@ main {
    text-decoration: none;
 }
 
+#skills_title>h3:hover {
+   border-bottom: 1px solid #00ff849c;
+}
+
+#skills_title>h3>a:hover {
+   color: #00ff849c;
+}
+
 .skills_content {
    width: 100%;
    height: 750px;
@@ -435,7 +446,7 @@ main {
    gap: 9rem;
    padding: 100px;
    position: relative;
-   background-image: url(img/9f96597cdce7912cd9fcd513d3da1163.jpg);
+   background-image: url(./img/skillBack.jpg);
    /* background-position: center; */
    background-repeat: no-repeat;
    background-size: cover;
@@ -547,6 +558,14 @@ main {
    text-decoration: none;
 }
 
+#awards_title>h3:hover {
+   border-bottom: 1px solid #00ff849c;
+}
+
+#awards_title>h3>a:hover {
+   color: #00ff849c;
+}
+
 .awards_content {
    height: 100%;
 }
@@ -622,6 +641,14 @@ main {
 #project_title>h3>a {
    color: rgba(255, 255, 255, 0.959);
    text-decoration: none;
+}
+
+#project_title>h3:hover {
+   border-bottom: 1px solid #00ff849c;
+}
+
+#project_title>h3>a:hover {
+   color: #00ff849c;
 }
 
 .project_frame {
@@ -724,7 +751,7 @@ main {
 .het_footer {
    width: 100%;
    height: 100px;
-   background-color: #0e0e0e;
+   background-color: #141414;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -737,7 +764,8 @@ main {
 }
 
 .footer_txt>p {
-   color: rgba(255, 255, 255, 0.959);   
+   color: #ccc;
+   opacity: 0.8;   
 }
 
 .footer_txt>p:hover {
@@ -745,7 +773,7 @@ main {
 }
 
 .footer_txt>p>a {
-   color: rgba(255, 255, 255, 0.959);  
+   color: #ccc;  
    text-decoration: none; 
 }
 
